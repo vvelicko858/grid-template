@@ -1,0 +1,34 @@
+
+.header-navbar{
+  &__btn{
+    display: none;
+  }  
+
+  &__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: -10px -10px 0 0;
+    padding: 0;
+}
+&__item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+&__link{
+  display: block;
+  padding: 20px 10px;
+  font-size: 1.125rem;
+  letter-spacing: 0.09em;
+  transition: color 0.5s ;
+
+  &:hover,
+  &:focus{
+    color:  #d66926;  ;
+  }
+  }
+ 
+}
+
+  
+  
